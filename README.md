@@ -8,7 +8,7 @@
   2. ellipse: Used for viusalizing data points and drawing ellipses around clusters to represent data concentration
 
 **Data Partitioning**
-  1. Dataset was split into 85% training data and 15% for validation using care
+  1. Dataset was split into 85% training data and 15% for validation using caret
 
 **Model Training and Selection**
   1. We trained four classification algorithms: LDA, RF, KNN, and CART. The models were evaluated using 10-fold cross-validation, and Random Forest (RF) emerged as the best model based on the highest mean accuracy and kappa value. This indicates a strong correlation between the predicted and actual classifications.
