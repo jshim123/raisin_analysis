@@ -15,3 +15,4 @@
 
 **Dataset**
   1. Used a public dataset from UC Irvine's Machine Learning Repository. Chose the Raisin dataset which contained over 900 images, each with 7 extracted features used for classifcation tasks. The format of the dataset was a CSV file
+
