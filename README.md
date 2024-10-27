@@ -11,7 +11,7 @@
   1. Dataset was split into 85% training data and 15% for validation using caret
 
 **Model Training and Selection**
-  1. We trained four classification algorithms: LDA, RF, KNN, and CART. The models were evaluated using 10-fold cross-validation, and Random Forest (RF) emerged as the best model based on the highest mean accuracy and kappa value. This indicates a strong correlation between the predicted and actual classifications.
+  1. Trained four classification algorithms: LDA, RF, KNN, and CART. The models were evaluated using 10-fold cross-validation, and Random Forest (RF) emerged as the best model based on the highest mean accuracy and kappa value. This indicates a strong correlation between the predicted and actual classifications.
 
 **Dataset**
   1. Used a public dataset from UC Irvine's Machine Learning Repository. Chose the Raisin dataset which contained over 900 images, each with 7 extracted features used for classifcation tasks. The format of the dataset was a CSV file
